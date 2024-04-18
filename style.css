@@ -1,0 +1,390 @@
+/* Start Global */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.content {
+    width: 80%;
+    margin: auto 10%;
+
+}
+
+/* End Global */
+.home {
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+.navbar {
+    padding: 10px 0;
+}
+
+.navbar-logo {
+    
+    width: 20%;
+    display: inline-block;
+}
+
+.navbar-logo img {
+    width: 70%;
+}
+
+.navbar-list {
+   
+    width: 70%;
+    display: inline-block;
+
+}
+
+.navbar-list ul {
+    list-style-type: none;
+    width: 80%;
+    margin-left: auto;
+}
+
+.navbar-list ul li {
+    display: inline-block;
+    width: 15%;
+    font-size: 18px;
+    vertical-align: top;
+}
+
+.navbar-list ul li a {
+    text-decoration: none;
+    margin: 0;
+    color: white;
+}
+
+.welcome {
+    text-align: center;
+    margin: 150px auto 0;
+    color: white;
+}
+
+.welcome span {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.welcome h1 {
+    font-size: 76px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.welcome p {
+    font-size: 25px;
+    margin-bottom: 18px;
+}
+
+.btn {
+    padding: 20px 15px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: transparent;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.btn1 {
+    margin-right: 5px;
+    background-color: #8A6A4B;
+
+}
+
+.btn2 {
+    border: 1px solid #fff;
+}
+
+/* Start Who are */
+.who {
+    margin-bottom: 80px;
+}
+
+.who-img {
+    width: 40%;
+    display: inline-block;
+    margin-right: calc(100% - 87%);
+    
+}
+
+.who-img img {
+    width: 100%;
+}
+
+.who-text {
+    width: 44%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+
+}
+
+.who-text h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.who-text p {
+    font-size: 18px;
+    color: #686868;
+    margin-bottom: 30px;
+}
+.who-text ul {
+    list-style: none;
+}
+.who-text ul li{
+    font-size: 17px;
+    margin-bottom:20px;
+}
+.who-text ul .icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border:1px solid #dfc8b2;
+    color: #8A6A4B;
+    display: inline-block;
+    text-align: center;
+    margin: 0px 10px -10px 0;
+}
+.who-text ul i{
+   font-size: 17px;
+  margin: 10px auto ;
+  
+
+}
+.who-tex .text{
+    display: inline-block;
+    font-size: 20px;
+}
+/* end Who are */
+/* start location */
+.location{
+    background-color: #F8F8F8;
+    padding: 70px 15px;
+    margin-bottom: 80px;
+}
+.col1,.col2{
+    display: inline-block;
+}
+.col1{
+    width: 40%;
+    vertical-align: top;
+    margin-right:calc(100% - 95%);
+    padding:60px 0;
+}
+.col1 h3{
+    font-size:40px;
+    font-weight:400;
+    margin-bottom: 25px;
+}
+.col1  p{
+    color: #686868;
+    line-height:1.2;
+    font-size: 18px;
+}
+.col2{
+    width: 50%;
+}
+.col2 img{
+    width: 100%;
+}
+/* end location */
+/* start Baking */
+.baking {
+    margin-bottom: 80px;
+}
+.baking .title{
+text-align: center;
+margin-bottom: 40px;
+}
+.baking .title h3{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom:25px;
+}
+.baking .title p{
+    color: #686868;
+    font-size: 18px;
+}
+.baking .bake{
+    width: 32%;
+    float: left;
+    text-align: center;
+    margin-right:1%;
+}
+.baking .bake img{
+    width:90%;
+    margin-bottom: 25px;
+}
+.baking .bake  h4{
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+.baking .bake  p{
+padding: 0 20px;
+line-height: 1.5;
+font-size:17px;
+color: #686868;
+}
+.clr{
+    clear: both;
+   
+}
+/* end Baking */
+/* sart information */
+.inform{
+    background-color: #F8F8F8;
+    padding: 80px 0;
+}
+.inform .inform1{
+    width: 45%;
+    float: left;
+    margin-right: 8%;
+} 
+.inform1 h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.inform1 p{
+    padding: 0 30px 0 0;
+    line-height: 1.5;
+    font-size:17px;
+    color: #686868;
+    margin-bottom: 25px;
+}
+.inform-icon{
+    list-style-type: none;
+}
+.inform-icon li{
+    margin-bottom: 25px;
+}
+.inform1 .icon{
+    margin-right:15px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #8A6A4B;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+}
+.inform1 ul i{
+    margin: 10px auto;
+    font-size: 18px;
+ }
+ .inform1 .text{
+    vertical-align: middle;
+    display: inline-block;
+    color: #686868;
+    font-size: 18px;
+ }
+.inform .inform2{
+    width: 45%;
+    float: left;
+}
+.inform .inform2 iframe{
+    width:100%;
+    height: 450px;
+}
+/* end information */
+/* start last */
+.last{
+    background-color:#403D38;
+    padding: 50px 0;
+}
+.col4{
+    width: 23%;
+    margin-right: 2%;
+    float: left;
+}
+.col4 h3{
+    color:#fff;
+    font-weight: 400;
+    font-size:18px;
+    margin-bottom: 25px;
+}
+.col4 p{
+    color: #757575;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.col4 i{
+    display: inline-block;
+    margin-right: 10px;
+}
+.col4 .line{
+    width: 100%;
+    height: 0.5px;
+    margin-bottom: 10px;
+    background-color:#757575 ;
+}
+.col4 a{
+    text-decoration: none;
+    color: #757575;
+}
+.last .first p{
+    padding-right:35px;
+    line-height: 1.5;
+}
+/* end last */
+/* footer */
+.footer{
+    background-color: #353330;
+    padding: 50px 0;
+    text-align: center;
+}
+.footer img{
+    margin-bottom: 25px;
+}
+.footer p{
+    color: #757575;
+    margin-bottom: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: #757575;
+    font-size: 18px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color:#403D38;
+    margin-right: 15px;
+}
+.footer a i{
+ margin: 10px auto;
+}
